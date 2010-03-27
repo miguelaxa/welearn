@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">IBMEyes</string>
+    <string name="app_name">IBM Eyes</string>
+    <string name="android_sax">Android SAX</string>
+    <string name="sax">Classic SAX</string>
+</resources>
