@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:baselineAligned="false" android:background="@drawable/back1">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textStyle="normal" android:text="  Free Sex Offender Search" android:textSize="26px" android:shadowColor="#000000" android:shadowDx="1" android:shadowDy="1" android:textColor="#aa0000" android:background="#cccc66"/>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="provided by Publicdata.com" android:lines="2" android:textColor="#77ee00" android:textSize="16px"/>
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Search by zip Code" android:textSize="21px" android:textColor="#aaffaa" android:paddingBottom="4px"/>
+	<TableLayout android:id="@+id/TableLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="fill_vertical"><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+	<EditText android:layout_height="wrap_content" android:id="@+id/txt_zip" android:text="Zip Code" android:clickable="true" android:layout_width="wrap_content" android:height="38px" android:textColor="#777744" android:background="#eeffcc"></EditText>
+	<Button android:id="@+id/btn_zip" android:text="Search by Zip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="right"></Button></TableRow></TableLayout>
+	
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Search by Name (last name req)" android:textSize="21px" android:textColor="#aaffaa" android:paddingBottom="4px" android:paddingTop="4px"/>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/txt_lname" android:paddingBottom="2px" android:paddingTop="2px" android:layout_marginBottom="2px" android:layout_marginTop="2px" android:height="38px" android:textColor="#777744" android:background="#eeffcc" android:text="Last Name ( Required )"></EditText>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/txt_fname" android:paddingTop="2px" android:paddingBottom="2px" android:layout_marginTop="2px" android:layout_marginBottom="2px" android:height="38px" android:textColor="#777744" android:background="#eeffcc" android:text="First Name ( Recommended )"></EditText>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Search by name"
+		android:id="@+id/btn_name"></Button>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text='Search your current location "uses GPS"' />
+	<Button android:id="@+id/Button03" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center" android:text="Sign Into Publicdata.com"></Button>
+		 
+
+
+</LinearLayout>
