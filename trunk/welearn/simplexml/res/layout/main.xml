@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="getloc" android:id="@+id/track" />
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="location"
+		android:id="@+id/Btnloc" />
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="rss feed"
+		android:id="@+id/Btnxml" />
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="webkit" android:id="@+id/Btnwebkit" />
+
+   <TextView
+            android:id="@+id/display"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:textSize="22px" 
+            android:gravity="center_vertical"
+        />
+</LinearLayout>
